@@ -6,10 +6,10 @@ using namespace std;
 
 #include "olcConsoleGameEngine.h"
 
-class OneLoneCoder_Asteroids : public olcConsoleGameEngine
+class Jakes_Asteroids : public olcConsoleGameEngine
 {
 public:
-	OneLoneCoder_Asteroids()
+	Jakes_Asteroids()
 	{
 		m_sAppName = L"Asteroids";
 	}
@@ -294,7 +294,7 @@ protected:
 int main()
 {
 	// Use olcConsoleGameEngine derived app
-	OneLoneCoder_Asteroids game;
+	Jakes_Asteroids game;
 	game.ConstructConsole(160, 100, 8, 8);
 	game.Start();
 	return 0;
